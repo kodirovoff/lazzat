@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚩Lazzat Burger</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/lazzat.png">
+    <!-- <style>@media print {#ghostery-tracker-tally {display:none !important}}</style> -->
+</head>
+<body>
+
+    <div class="hero" id="hero">
+        <div class="nav-bar">
+            <div class="nav-logo"><img src="images/lazzat.png" alt=""></div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()">ⓧ</i>
+                <ul class="nav-area">
+                    <li><a href="">Bosh Sahifa</a></li>
+                    <li><a href="pics.html">Menu</a></li>
+                    <li><a href="">Biz haqimizda</a></li>
+                    <li><a href="">Hizmatlarimiz</a></li>
+                </ul>
+                <button class="btn">Royhatdan utish</button>
+            </div>
+            <i class="fa-bar" onclick="showMenu()";><img src="icons/list.png" alt=""></i>
+        </div>
+        <div class="banner-title">
+            <h1>
+                Tanlovda Adashmang
+            </h1>
+            <button type="button" class="btn">EXPLORE</button>
+        </div>
+        <div class="vertical-bar">
+            <div class="search-icons">   
+            </div>
+            <div class="social-icons">
+                <i class="fa"><a href="https://www.instagram.com/lazzat_burger/"><img src="icons/phon.png" alt=""></a></i>
+                <i class="fa"><a href="https://t.me/c/1127258781/518"><img src="icons/tel.png" alt=""></a></i>
+                <i class="fa"><a href="https://www.instagram.com/lazzat_burger/"><img src="icons/ins.png" alt=""></a></i>
+                <i class="fa"><img src="icons/face.png" alt=""></i>
+            </div>
+        </div>
+        <div class="notifications" id="notifications">
+            <div class="contents"></div>
+            <div class="notifications-img">
+                <!-- <img src="images/delivery.jpeg" alt=""> -->
+            </div>
+        </div>
+        <div class="bottom-container">
+            <a class="footer-link" href="https://www.instagram.com/kodirov_off/">Instagram</a>
+            <a class="footer-link" href="https://www.facebook.com/kodirov.adkhamboy">facebook</a>
+            <a href="https://github.com/kodirovoff">GitHub</a>
+            <a class="footer-link" href="https://kodirovoff.github.io/cv./">Website</a>
+            <p class="pa">© Creater: 2021 Adkham Kodirov.</p>
+        </div>
+
+    </div>
+
+    <!-- <div class="hero">
+        <ul class="nav-area"> <strong>
+            <li><a href="">Bosh Sahifa</a></li>
+            <li><a href="pics.html">Menu</a></li>
+            <li><a href="">Biz haqimizda</a></li>
+            <li><a href="">Hizmatlarimiz</a></li>
+        </strong>
+        </ul>
+    </div>
+    <div class="welcome-text">
+        <h1>Tanlovda Adashmang</h1>
+        <a class="number-show" href="tel:+998934955855">bizga bog'lanish +998934955855</a> 
+    </div><br>-->
+    <script>
+        var show = document.getElementById('nav-links');
+        function showMenu(){
+            show.style.right = "0";
+        }
+        function closeMenu(){
+            show.style.right = "-200px";
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
